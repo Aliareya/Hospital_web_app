@@ -1,19 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('./images/bg5.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #c9c9c96b;
 }
-/* .signup{
-    background-color: aliceblue;
-
-} */
 .my_bg {
     background-image: linear-gradient(to right, #6CC6B0 0%, #04A6CD 50%, #365BA9 100%);
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
