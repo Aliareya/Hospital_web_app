@@ -6,20 +6,32 @@ import Signup from './auth/Singup';
 import Home from "./pages/Home";
 import NotFound from "./pages/404";
 import homebg from './images/Homebg.jpg';
+import bannerbg from './images/bag.jpg';
 import HomeBanner from "./banner/HomeBanner";
+import Banner from "./banner/Banner";
+import { useLocation } from "react-router-dom";
+
 function HomeApp() {
+  const location = useLocation();
+  const location_rout = location.pathname;
+  const banner_image = location.pathname === '/' ? homebg : bannerbg ;
+  console.log(location.pathname)
+
   return (
-    <div className="w-full">
-      <div className="header w-full h-[750px] bg-cover opacity-85 "
-       style={{ backgroundImage: `url(${homebg})` }}>
+    <div className="w-full signup">
+      <div className={`header w-full ${location_rout === '/' ?'h-[750px]':'h-[450px]'} bg-cover bg-center opacity-85 `}
+       style={{ backgroundImage: `url(${banner_image})` }}>
         <Header />
-        <HomeBanner/>
+        {location_rout === "/" ?
+          <HomeBanner/>:
+          <Banner/>
+        }
       </div>
       <div className="w-full">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
-          <Route path="/" element={<Home />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </div>

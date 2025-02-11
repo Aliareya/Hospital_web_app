@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
+    /* background-color: #c9c9c96b; */
+}
+
+.signup{
+    background-color: #c9c9c96b;
+}
+
+.login{
     background-color: #c9c9c96b;
 }
 .my_bg {
