@@ -1,12 +1,15 @@
 import HowWeWorks from "./homecomponents/HowWeWorks";
+import MedialServices from "./homecomponents/MedialServices";
+import GreateWork from "./homecomponents/GreateWork";
 
 
 
 function Home() {
   return (
-    <div className="w-full  bg-white flex flex-col items-center pt-32">
+    <div className="w-full bg-white flex flex-col items-center pt-32">
       <HowWeWorks/>
-      <div className="w-full h-96 bg-slate-600"></div>
+      <MedialServices/>
+      <GreateWork/>
     </div>
   )
 }

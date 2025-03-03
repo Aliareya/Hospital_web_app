@@ -39,7 +39,7 @@ function HowWeWorks() {
 
   return (
     <div className="w-[90%] h-[600px] flex flex-col items-center justify-center px-10 py-5 mb-20 ">
-      <h1 className="text-center text-[#002948] text-5xl font-[400] pb-14 font-[Katibeh]">How We Works</h1>
+      <h1 className="text-center text-[#002948] text-5xl font-[400] pb-14 font-[Katibeh]">How We Works?</h1>
       <div className="w-full flex items-center justify-center gap-20 pt-10 bg-cover bg-top"
         style={{ backgroundImage: `url(${workbg})` }}
       >

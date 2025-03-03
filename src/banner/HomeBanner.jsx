@@ -10,7 +10,7 @@ function HomeBanner() {
         <button className="border-2 border-white border-double w-64 h-14 bg-[#002859c5] text-white text-lg font-semibold rounded-lg">Make Appointment</button>
       </div>
       <div className="w-60%] pt-[80px]">
-        <img src={play} alt="logo" className="w-32 h-32" />
+        <img src={homebanner} alt="logo" className="w-32 h-32" />
       </div>
     </div>
     <AppointmentForm/>
