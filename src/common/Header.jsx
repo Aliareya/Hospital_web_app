@@ -25,7 +25,7 @@ function Header() {
 
 
   return (
-    <div className={`${isScrolled ?'bg-[#002948] z-50':''} w-full h-28 flex justify-center fixed top-0  `}>
+    <div className={`${isScrolled ?'bg-[#045e74] z-50':''} w-full h-28 flex justify-center fixed top-0  `}>
       <div className="w-[20%] h-28 flex justify-center items-center">
         <img src={logo} alt="logo" />
       </div>

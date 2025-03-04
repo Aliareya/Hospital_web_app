@@ -3,6 +3,7 @@ import MedialServices from "./homecomponents/MedialServices";
 import GreateWork from "./homecomponents/GreateWork";
 import PatientsComment from "./homecomponents/PatientsComment";
 import AppointmentForm from "../forms/AppointmentForm";
+import HomeRewards from "./homecomponents/HomeRewards";
 
 
 
@@ -14,6 +15,7 @@ function Home() {
       <MedialServices/>
       <GreateWork/>
       <PatientsComment/>
+      <HomeRewards/>
     </div>
   )
 }
