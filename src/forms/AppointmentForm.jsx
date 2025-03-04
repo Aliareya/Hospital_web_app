@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function AppointmentForm() {
   return (
-    <form className=" w-[83%] h-56 -mt-14 top-2 shadow-xl bg-white flex items-center gap-5 px-10 rounded-2xl ml-[132px]">
+    <form className="w-[83%] h-56 -mt-60 shadow-xl bg-white flex items-center gap-5 px-10 rounded-2xl">
       <div className='w-[20%] flex flex-col '>
         <label className='pl-1 pb-2 text-2xl' htmlFor="name">Your Name</label>
         <input type="text" placeholder="Name..."

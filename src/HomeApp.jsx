@@ -21,7 +21,7 @@ function HomeApp() {
 
   return (
     <div className="w-full signup">
-      <div className={`header w-full ${location_rout === '/' ?'h-[750px]':'h-[450px]'} bg-cover bg-center opacity-85 `}
+      <div className={`header w-full ${location_rout === '/' ?'h-[750px]':'h-[450px]'} bg-cover bg-center `}
        style={{ backgroundImage: `url(${banner_image})` }}>
         <Header />
         {location_rout === "/" ?

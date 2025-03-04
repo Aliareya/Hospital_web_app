@@ -13,7 +13,7 @@ function HomeBanner() {
         <img src={homebanner} alt="logo" className="w-32 h-32" />
       </div>
     </div>
-    <AppointmentForm/>
+    {/* <AppointmentForm/> */}
     </>
   )
 }
