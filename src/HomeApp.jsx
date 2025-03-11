@@ -11,7 +11,6 @@ import HomeBanner from "./banner/HomeBanner";
 import Banner from "./banner/Banner";
 import Cart from "./pages/Cart";
 import { useLocation } from "react-router-dom";
-import Test from "./pages/test";
 
 function HomeApp() {
   const location = useLocation();
@@ -34,7 +33,6 @@ function HomeApp() {
           <Route path="/" element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
-          <Route path='/test' element={<Test />} />
           <Route path='/cart' element={<Cart />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
